@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> TERCERA DIVISION </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+	<div class="logo"> <img src="GIAT.gif"> </div>
+		<div class="main">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="SS.html">Storm Signal</a></li>
+				<li><a href="contacts.html">Contacts</a></li>
+				<li><a href="About.html">Prevention</a></li>
+				<li><a href="News.html">Evacuation Plan</a></li>
+			</ul>
+
+	<link rel="stylesheet" type="text/css" href="ss.css">
+
+	<div class="container">
+		<img src="ss.png">
+		
+		<div class="text">
+			<div style=" font-size: 20px; text-decoration: none;">
+			
+
+			When any Public Storm Warning Signal Number is hoisted or put in effect for the first time, the corresponding meteorological conditions are not yet prevailing over the locality. 
+    
+        		<p>This is because the purpose of the signal is to warn the impending occurrence of the given meteorological conditions. It must be noted also that the approximate lead time to expect the range of the wind speeds given for each signal number is valid only when the signal number is put in effect for the first time. Thus, the associated meteorological conditions are still expected in at least 36 hours when PSWS #1 is put in effect initially; in at least 24 hours with PSWS #2; in at least 18 hours with PSWS #3, in at least 12 hours with PSWS #4; and in at least 12 hours with PSWS #5. The lead time shortens correspondingly in the subsequent issues of the warning bulletin when the signal number remains in effect as the tropical cyclone comes closer. </p>
+
+
+        		<p>It is also important to remember that tropical cyclones are constantly in motion; generally towards the Philippines when PAGASA is issuing the warning. Therefore, the Public Storm Warning Signal Number over a threatened/ affected locality may be sequentially upgraded or downgraded. This means that PSWS #1 may be be upgraded to PSWS #2, then to PSWS #3, PSWS #4 and to PSWS #5 as necessary when a very intense typhoon is approaching or downgraded when the typhoon is moving away. However, in case of rapid improvement of the weather condition due to the considerable weakening or acceleration of speed of movement of the tropical cyclone moving away from the country, the downgrading of signal may jump one signal level. For example, PSWS #3 may be downgraded to PSWS #1 or all signals from PSWS #2 may be lowered. </p>
+		
+				<p>The delineation of areas for a given signal number is based on the intensity, size of circulation and the forecast direction and speed of movement of the tropical storm or typhoon at the time of issue of the warning bulletin. The change in intensity, size of circulation or movement of the tropical cyclone also determines the change in the PSWS number over a given locality.</p>
+			</div>
+		</div>
+	</div>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  position: relative;
+  top: 10%;
+  padding: 20px 20px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 5%;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  position: absolute;
+  padding: 16px;
+  top: 10%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="TOD.html">Types of Disaster</a>
+   <a href="Protocols.html">Protocols</a>
+  <a href="FAT.html">Facqs and Trivia </a>
+  <a href="Weather.html">Weather</a>
+  <a href="Tropical.html"> Tropical Cyclone</a>
+</div>
+
+<div id="main">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>	
+ </header>   	
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> TERCERA DIVISION </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+	<div class="logo"><img src="GIAT.gif"></div>	
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="SS.html">Storm Signal</a></li>			
+				<li><a href="contacts.html">Contacts</a></li>
+				<li><a href="About.html">Prevention</a></li>
+				<li><a href="News.html">Evacuation Plan</a></li>			
+			</ul>
+		</div>
+	<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  position: relative;
+  top: 10%;
+  padding: 20px 20px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 5%;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  position: absolute;
+  padding: 16px;
+  top: 10%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="TOD.html">Types of Disaster</a>
+  <a href="Protocols.html">Protocols</a>
+  <a href="FAT.html">Facqs and Trivia </a>
+  <a href="Weather.html">Weather</a>
+  <a href="Tropical.html"> Tropical Cyclone</a>
+</div>
+
+<div id="main">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+</header>
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+
+
+.tab {
+    position: absolute;
+  top: 20%;
+  left: 10%;
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 1000px;
+
+}
+
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background-color: #f3f3f3 ;
+  float: right;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 60%;
+  border-left: none;
+  height: 1000px;
+  display: none;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  position: relative;
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<div style="font-family: Arial Black; font-size: 45px; text-decoration: none; color: #fff; position: absolute; width: 85%; background-color:  #0a75ad ; top: 14%; left: 7.5%; ">
+            Types of Disaster Caused of Typhoon
+        </div>
+
+<div class="tab">
+  <button class="tablinks" onmouseover="openCity(event, 'London')">Landslide</button>
+  <button class="tablinks" onmouseover="openCity(event, 'Paris')">Flood</button>
+
+</div>
+
+<div id="London" class="tabcontent">
+  <div style="font-size: 19px; margin: 1%; padding: 2%;"> 
+      <div style="font-size: 19px;">
+        <h3>BEFORE (KNOW THE HAZARDS IN YOUR AREA)</h3>
+
+  <div style="margin: 2%;">
+    <p>1. Know the landslide prone areas and learn early signs of impending landslides.</p>
+    <p>2. Monitor the news for weather updates, warnings and advisories.</p>
+    <p>3. Prepare your family’s GO BAG containing items needed for survival.</p>
+    <p>4. Know the locations of the evacuation site and the fastest and safest way to go there.</p>
+    <p>5. When notified, immediately evacuate to safer grounds.</p>
+  </div>
+<h3>DURING (STAY IN SAFE AREA AND BE ALERT) </h3>
+  
+  <div style="margin: 2%">
+    <p>1. When inside a house or building and evacuation is not possible, stay inside and get under a sturdy table.</p>
+    <p>2. When outside, avoid affected areas and go to a safer place.</p>
+    <p>3. When landslide cannot be avoided, protect your head.</p>
+    <p>4. When driving, do not cross bridges and damaged roads.</p>
+  </div>
+<h3> AFTER (MONITOR THE SITUATION AND STAY ALERT)</h3>
+  <div style="margin: 2%">
+    <p>1. Leave the evacuation area only when authorities say it is safe.</p>
+    <p>2. Avoid the landslide affected areas.</p>
+    <p>3. Watch out for possible flashfloods due to clogging of creeks or rivers.</p>
+    <p>4. Check for missing persons and report it to authorities.</p>
+    <p>5. Bring the injured and sick to the nearest hospital.</p>
+    <p>6. Check your house for possible damages and repair as necessary.</p>
+    <p>7. Report fallen trees and electric post to proper authorities.</p>
+   </div>   
+
+    </div>
+
+  <div style="position: absolute;top: 90%; left: 70%; font-size: 25px;s">
+    <a href=" landslide.html"> Previous</a>
+  </div>
+</div>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Flood</h3>
+  <p>
+A flood is an overflow of water that submerges land that is usually dry. Floods are an area of study in the discipline of hydrology. They are the most common and widespread natural severe weather event. Floods can look very different because flooding covers anything from a few inches of water to several 
+      feet.
+</p> 
+    <img src="flood.jpg" style="position: absolute;margin: 5%; top: 9%; width: 90%;">
+
+      <div style="position: absolute;top: 90%; left: 80%; font-size: 25px;">
+        <a href="Flood.html"> Next</a>
+      </div>
+
+
+</div>
+
+
+
+<div class="clearfix"></div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+
+</body>
+</html>

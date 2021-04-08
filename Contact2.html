@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> TERCERA DIVISION </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+
+	<div class="logo"> <img src="GIAT.gif"> </div>
+		<div class="main">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="SS.html">Storm Signal</a></li>
+				<li class="active"><a href="contacts.html">Contacts</a></li>
+				<li><a href="About.html">Prevention</a></li>
+				<li><a href="News.html">Evacuation Plan</a></li>
+			</ul>
+		</div>
+		
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  position: relative;
+  top: 10%;
+  padding: 20px 20px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 5%;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  position: absolute;
+  padding: 16px;
+  top: 10%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="TOD.html">Types of Disaster</a>
+ <a href="Protocols.html">Protocols</a>
+  <a href="FAT.html">Facqs and Trivia </a>
+  <a href="Weather.html">Weather</a>
+  <a href="Tropical.html"> Tropical Cyclone</a>
+</div>
+
+<div id="main">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+		<style type="text/css">
+				.container .inner{
+					position: absolute;
+					width: 80%;
+					background-color: white;
+					top: 30%;
+					left: 10%;
+				}
+				.content{
+					background-color: white;
+					width: 80%;
+					position: absolute;
+					top: 26%;
+					left: 10%;
+				}
+				.content h2{
+					margin-left: 1%;
+					padding: 0.3%;
+				}
+
+				.content h1{
+					margin-left: 1%;
+					padding: 1%;
+				}
+				.content p{
+					margin-left: 2%;
+					font-size: 20px;
+					padding: %;
+
+				}
+				.button{
+  					position: absolute;
+  					top: 87%;
+  					left: 70%;
+  					transform: translate(-50%-50%);
+ 					}
+ 				.btn {
+  					border: 1px solid #fff;
+  					padding: 20px 40px;
+  					color: #fff;
+  					text-decoration: none;  
+					}
+				.btn:hover{
+  					background-color: #fff;
+  					color: #000;
+					}
+        .button2{
+            position: absolute;
+            top: 87%;
+            left: 75%;
+            transform: translate(-50%-50%);
+          }
+        .btn2 {
+            border: 1px solid #fff;
+            padding: 20px 40px;
+            color: #fff;
+            text-decoration: none;  
+          }
+        .btn2:hover{
+            background-color: #fff;
+            color: #000;
+          }
+        .button3{
+            position: absolute;
+            top: 87%;
+            left: 80%;
+            transform: translate(-50%-50%);
+          }
+        .btn3 {
+            border: 1px solid #fff;
+            padding: 20px 40px;
+            color: #fff;
+            text-decoration: none;  
+          }
+        .btn3:hover{
+            background-color: #fff;
+            color: #000;
+          } 
+	
+		</style>
+			
+    </div>
+
+    <style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#customers td, #customers th {
+  border: 8.99999953px solid #ddd;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(odd){background-color: #f5f0f0}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #4CAF50;
+  color:  white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+    <tr>
+  <th>Name</th>
+    <th>Barangay</th>
+    <th>Mobile Numbers</th>
+  </tr>
+  <tr>
+    <td>1. Romeo A. Manalo</td>
+    <td>Abung</td>
+    <td>09999929513</td>
+  </tr>
+  <tr>
+    <td>2. Alexander L. Alana</td>
+    <td> Balagbag</td>
+    <td>09307231818</td>
+  </tr>
+  <tr>
+    <td>3. Ruben A. Dala</td>
+    <td>Barualte</td>
+    <td>09109635414</td>
+  </tr>
+  <tr>
+    <td>4. Ermelinda C, Dala</td>
+    <td>Bataan</td>
+    <td>09065037801</td>
+  </tr>
+  <tr>
+    <td>5. Alex V. Salapare</td>
+    <td>Buhaynasapa</td>
+    <td>0999966275 / 575-4609</td>
+  </tr>
+  <tr>
+    <td>6. Regalado A Luistro</td>
+    <td>Bulsa</td>
+    <td>09164877334</td>
+  </tr>
+  <tr>
+    <td>7. Nestor M. Barrion</td>
+    <td>Calicanto</td>
+    <td>09569920251</td>
+  </tr>
+  <tr>
+    <td>8. Liwelyndo A Vergara</td>
+    <td>Calitcalit</td>
+    <td>09153833609
+</td>
+  </tr>
+  <tr>
+    <td>9. Jose R. Salagubang</td>
+    <td>Calubcub I</td>
+    <td>09154952004<td>
+  </tr>
+  <tr>
+    <td>10. Mario P. Perez</td>
+    <td>Calubcub II</td>
+    <td>09058915240</td>
+  </tr>
+  <tr>
+    <td>11. June C. Perez</td>
+    <td>Catmon</td>
+    <td>09086029809 </td>
+  </tr>
+  <tr>
+    <td>12. Loma T. Manalo</td>
+    <td>Coloconto</td>
+    <td>09175147526</td>
+  </tr>
+  <tr>
+    <td>13. Bernardo J. Salud</td>
+    <td>Escribano</td>
+    <td>09176041827/09294568845</td>
+  </tr>
+  <tr>
+    <td>14. Fernando A. Sulita</td>
+    <td>Hugom</td>
+    <td>09998642496</td>
+  </tr>
+   <tr>
+    <td>15. San Juan P. Bico</td>
+    <td>Imelda</td>
+    <td>09084598373 09174204351 / 09183797097</td>
+  </tr>
+   <tr>
+    <td>16. Editha O. Sagaral</td>
+    <td>Janaojanao</td>
+    <td>09178331344 /09088206485</td>
+  </tr>
+   <tr>
+    <td>17. Wivin R. Llana</td>
+    <td>Laiya Aplaya</td>
+    <td>09989834608</td>
+  </tr>
+   <tr>
+    <td>18. Wenilo G. Ada</td>
+    <td>Laiya ibabao</td>
+    <td>09773290393</td>
+  </tr>
+   <tr>
+    <td>19. Joel E. Ilao</td>
+    <td>Libato</td>
+    <td>09996945927</td>
+  </tr>
+   <tr>
+    <td>20. Mario M. Magpantay</td>
+    <td>Lipahan
+</td>
+    <td>09394906806</td>
+  </tr>
+   <tr>
+    <td>21. Rolando R. Castillo</td>
+    <td>Mabalanoy</td>
+    <td>09175372238</td>
+  </tr>  
+  </div>			
+    </div>
+
+    <div>
+		<div class="button">
+  			<a href="contacts.html" class="btn">1</a>
+		</div>
+		<div class="button2">
+  			<a href="Contact2.html" class="btn2">2</a>
+		</div>
+		<div class="button3">
+  			<a href="Contact3.html" class="btn3">3</a>
+		</div>
+
+	</div>
+
+
+
+		
+</header> 
+</body>
+</html>

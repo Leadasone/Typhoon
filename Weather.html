@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> TERCERA DIVISION </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+
+	<div class="logo"> <img src="GIAT.gif"> </div>
+		<div class="main">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="SS.html">Storm Signal</a></li>
+				<li><a href="contacts.html">Contacts</a></li>
+				<li><a href="About.html">Prevention</a></li>
+				<li><a href="News.html">Evacuation Plan</a></li>
+			</ul>
+		</div>
+		
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  position: relative;
+  top: 10%;
+  padding: 20px 20px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 5%;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  position: absolute;
+  padding: 16px;
+  top: 10%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="TOD.html">Types of Disaster</a>
+  <a href="Protocols.html">Protocols</a>
+  <a href="FAT.html">Facqs and Trivia </a>
+  <a href="Weather.html">Weather</a>
+  <a href="Tropical.html"> Tropical Cyclone </a>
+</div>
+
+<div id="main">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+
+</body>
+	
+	
+
+
+  <div style="position: absolute;left: 51%; top: 9%;">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124012.30364904326!2d121.3894821406933!3d13.755671884027024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd3b0f51ae56a7%3A0x3503f98f2afe74ee!2sSan%20Juan%2C%20Batangas!5e0!3m2!1sen!2sph!4v1616455110256!5m2!1sen!2sph" width="900px" height="700px" style="border:20;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+	
+	<div style="position: absolute; top: 9%; left: 34%;">
+		<script src="https://apps.elfsight.com/p/platform.js" defer> </script>
+		<div class="elfsight-app-63683768-03d9-485d-8a12-4546a917a100"> </div>
+	</div>
+
+  <div style="position: all; left: 5%;top: 10%">
+    <a class="weatherwidget-io" href="https://forecast7.com/en/13d75121d38/san-juan/" data-label_1="SAN JUAN" data-label_2="WEATHER" data-theme="original" >SAN JUAN WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+  </div>
+
+  <div class="container">
+    
+  </div>
+
+		
+</header> 
+
+</html>

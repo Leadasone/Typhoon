@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> TERCERA DIVISION </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+	<div class="logo"> <img src="GIAT.gif"> </div>
+		<div class="main">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="SS.html">Storm Signal</a></li>
+				<li><a href="contacts.html">Contacts</a></li>
+				<li><a href="About.html">Prevention</a></li>
+				<li><a href="News.html">Evacuation Plan</a></li>
+			</ul>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 80%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  position: relative;
+  top: 10%;
+  padding: 20px 20px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 5%;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  position: absolute;
+  padding: 16px;
+  top: 10%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="TOD.html">Types of Disaster</a>
+   <a href="Protocols.html">Protocols</a>
+  <a href="FAT.html">Facqs and Trivia </a>
+  <a href="Weather.html">Weather</a>
+  <a href="Tropical.html"> Tropical Cyclone</a>
+</div>
+
+<div id="main">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>	
+
+<style type="text/css">
+  
+
+.button{
+  position: absolute;
+  top: 73%;
+  left: 79%;
+  transform: translate(-50%-50%);
+ }
+ .btn {
+  border: 1px solid #fff;
+  padding: 20px 50px;
+  color: #fff;
+  text-decoration: none;  
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.content{
+  background-color: white;
+  width: 80%;
+}
+.content{
+  position: absolute;
+  top: 20%;
+  left: 12%;
+}
+
+.content h2{
+  margin: 2%;
+  font-size: 18px;
+}
+
+.content p {
+  margin: 2%;
+  font-size: 18px;
+}
+</style>
+
+<div class="content">
+  <h2> TROPICAL CYCLONE</h2>
+<p>Tropical cyclone is an extreme weather condition characterized by large scale circulation of strong winds, low atmospheric pressure and heavy rains. It can cause flooding, storm surge, landslides and flash floods.</p>
+
+<h2>BEFORE (MONITOR THE NEWS FOR WEATHER UPDATES)</h2>
+
+<li>Monitor the news for weather updates, warnings and advisories.</li>
+<li>Know the early warning and evacuation plan of the community.</li>
+<li>Check the integrity of your house and repair weak parts.</li>
+<li>Prepare your family’s GO BAG containing items needed for survival</li>
+<li>Put livestock and pets in safe area or designated site for animals.</li>
+<li>When notified, immediately go to the designated evacuation center.</li>
+
+<h2>DURING (STAY ALERT AND STAY TUNED)</h2>
+<li>Stay calm. Stay indoors and tunes in for latest news and weather updates.</li>
+<li>Turn off the main electrical switch and water valve.</li>
+<li>Use flashlight or emergency lamp. Be cautious in using candle and gas lamps.</li>
+<li>Stay away from glass windows.</li>
+
+ <h2> AFTER (REMAIN ALERT AND BE CAUTIOUS)</h2>
+<li>Wait for authorities to declare that it is safe to return home.</li>
+<li>Stay away from fallen trees, damaged structures and power lines</li>.
+<li>DO NOT go sightseeing as you may hinder the work of the emergency services.</li>
+<li>Be cautious in checking and repairing the damaged parts of your house.</li>
+<li>Check for wet or submerged electrical outlets and appliances before turning on electricity.</li>
+<li>Throw away the rainwater in cans, pots and tires to prevent the breeding of mosquitos.</li>
+  
+</div>
+
+
+<div class="button">
+  <a href="tcws.html" class="btn">Previous</a>
+</div>
+
+ </header>   	
+</body>
+</html>
